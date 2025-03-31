@@ -157,3 +157,7 @@
     padding:.5rem;
     margin-left:1rem;
 }
+.main-thumbnails .active{
+    border:2px solid hsl(26, 100%, 55%);
+    opacity: 50%;
+}

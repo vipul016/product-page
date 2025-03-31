@@ -68,22 +68,24 @@
     align-items: center;
 }
 .main-image img{
-    max-height:50vh;
+    max-height:20rem;
     height:auto;
     max-width:100%;
     border-radius:10px;
     object-fit: cover;
 }
 .main-thumbnails{
-    max-width:1200px;
+    max-width:100%;
     display:flex;
     justify-content: center;
     align-items: center;
     margin-top:.5rem;
 }
+
 .main-thumbnails img{
-    max-height:10vh;
+    max-height:4rem;
     max-width:100%;
+    height:auto;
     border-radius: 10px;
     margin:.5rem;
 }
@@ -132,7 +134,12 @@
     font-weight:900;
     color:(220, 14%, 75%)s;
 }
-
+.plus:hover{
+    cursor: pointer;
+}
+.minus:hover{
+    cursor:pointer;
+}
 .cart-container{
     display:flex;
     /* border:2px solid red; */

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Kumbh Sans',sans-serif;
+}
+.logo p{
+    font-weight: 900;
+    font-size: 180%;
+    padding-right:2rem;
+}
+.navbar{
+    display:flex;
+    border-bottom:.3px solid hsla(219, 9%, 45%,.5);
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2.6rem;
+    margin-right:5%;
+    margin-left:5%;
+}
+.nav-link{
+    text-decoration: none;
+    margin:.8rem;
+    color:hsl(219, 9%, 45%);
+    font-size:80%;
+}
+.nav-left{
+    display:flex;
+    /* display:2px solid black; */
+    align-items:center;
+    /* border:2px solid green; */
+}
+.nav-right{
+    display:flex;
+    /* border:2px solid black; */
+    width:10%;
+    justify-content: space-between;
+    align-items:center;
+}
+.main{
+    display:flex;
+    margin-left: 10%;
+    /* flex-wrap:wrap; */
+    margin-right:10%;
+    margin-top:7%;
+}
+.main-left{
+    display:flex;
+    flex-direction: column;
+    /* border:2px solid black; */
+    width:50%;
+}
+.main-right{
+    display:flex;
+    flex-direction:column;
+    /* border:2px solid black; */
+    width:50%;
+    justify-content: center;
+}
+.main-paragraph p{
+    width:80%;
+}
+.main-image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-image img{
+    max-height:50vh;
+    height:auto;
+    max-width:100%;
+    border-radius:10px;
+    object-fit: cover;
+}
+.main-thumbnails{
+    max-width:1200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:.5rem;
+}
+.main-thumbnails img{
+    max-height:10vh;
+    max-width:100%;
+    border-radius: 10px;
+    margin:.5rem;
+}
+
+.sub-heading{
+    font-weight: 600;
+    font-size: .7rem;
+    color:hsl(219, 9%, 45%);
+    margin-left:5%;
+}
+.main-heading{
+    margin-top:2%;
+    margin-left:5%;
+    font-weight:800;
+    font-size:2rem;
+}
+.main-paragraph{
+    margin-top:4%;
+    margin-left:5%;
+    color:hsl(219, 9%, 45%);
+    font-size:.8rem;
+}
+.price-tag{
+    display:flex;
+    margin-top:4%;
+    margin-left:5%;
+}
+.price{
+    font-weight:900;
+    font-size:1.2rem;
+    margin-right:2%;
+}
+.price-discount{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: black;
+    border-radius:5px;
+    width:10%;
+}
+.cut-price{
+    margin-left:5%;
+    margin-top:3%;
+    font-size:.8rem;
+    font-weight:900;
+    color:(220, 14%, 75%)s;
+}
+
+.cart-container{
+    display:flex;
+    /* border:2px solid red; */
+    margin-left:5%;
+    margin-top:5%;
+}
+.cart-add-del{
+    display:flex;
+    width:20%;
+    justify-content:space-around;
+    align-items: center;
+    font-size:.8rem;
+    background:hsl(223, 64%, 98%)
+}
+.add-to-cart{
+    width:40%;
+    display:flex;
+    /* border:2px solid red; */
+    justify-content: center;
+    border-radius:10px;
+    background:hsl(26, 100%, 55%);
+    padding:.5rem;
+    margin-left:1rem;
+}
